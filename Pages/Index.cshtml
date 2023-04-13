@@ -1,0 +1,57 @@
+﻿@page
+@{
+    ViewData["Title"] = "Home";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BiometricPortal</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <!-- Add your navigation bar content here -->
+        </nav>
+    </header>
+    <main role="main">
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-4">Welcome to BiometricPortal</h1>
+                <p class="lead">Your one-stop platform for managing your health data and connecting with medical professionals.</p>
+                <p><a class="btn btn-primary btn-lg" href="#" role="button">Get Started &raquo;</a></p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Upload and Access Data</h2>
+                    <p>Easily upload and manage your biometric data, including heart rate, blood samples, MRI scans, and more.</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Connect with Professionals</h2>
+                    <p>Get a second opinion and discuss your health data with qualified doctors and medical professionals.</p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Gain Insights</h2>
+                    <p>Use data visualization tools and analytics to better understand your health and make informed decisions.</p>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </main>
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            <!-- Add your footer content here -->
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js"></script>
+</body>
+</html>
